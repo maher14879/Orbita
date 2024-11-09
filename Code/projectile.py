@@ -1,6 +1,6 @@
 import pygame as pg
-from particle import FromToParticle
-from functions import random_value
+from Code.particle import FromToParticle
+from Code.functions import random_value
 
 projectile_image = pg.image.load("Graphics\shoot.png")
 charge_projectile_image = pg.image.load("Graphics\charge_shoot.png")

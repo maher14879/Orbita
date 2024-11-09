@@ -2,16 +2,15 @@ import pygame as pg
 import random
 import math
 
-from player import Player
-from projectile import Projectile, ChargeProjectile
-from particle import LightParticle, ColorParticle, RotateParticle, StarParticle
-from asteroid import Asteroid, Orb
-from animation import Animation, AnimationFrame
-from visuals import BasicVisual
-from text import Text
-from enemy import BasicShip
-
-from functions import Sound, AsteroidVector, load
+from Code.player import Player
+from Code.projectile import Projectile, ChargeProjectile
+from Code.particle import LightParticle, ColorParticle, RotateParticle, StarParticle
+from Code.asteroid import Asteroid, Orb
+from Code.animation import Animation, AnimationFrame
+from Code.visuals import BasicVisual
+from Code.text import Text
+from Code.enemy import BasicShip
+from Code.functions import Sound, AsteroidVector, load
 
 class Level:
     def __init__(self, state: dict):

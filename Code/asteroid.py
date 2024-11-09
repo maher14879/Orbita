@@ -1,9 +1,9 @@
 import pygame as pg
 import random
 
-from player import Player
-from particle import ColorParticle
-from functions import Sound, AsteroidVector
+from Code.player import Player
+from Code.particle import ColorParticle
+from Code.functions import Sound, AsteroidVector
 
 asteroid_images = [pg.image.load("Graphics\\Asteroids\\" + str(i+1) + ".png") for i in range(11)]
 orb_images = [pg.image.load("Graphics\\Orbs\\orb_1.png"), pg.image.load("Graphics\\Orbs\\orb_2.png")]

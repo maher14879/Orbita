@@ -1,9 +1,9 @@
 import pygame as pg
 import random
 
-from particle import FlyParticle, FromToParticle
-from projectile import Projectile, ChargeProjectile
-from functions import random_value, Sound
+from Code.particle import FlyParticle, FromToParticle
+from Code.projectile import Projectile, ChargeProjectile
+from Code.functions import random_value, Sound
 
 class Player (pg.sprite.Sprite):
     def __init__(self, pos: tuple[int], group: pg.sprite.Group, projectile_group: pg.sprite.Group):

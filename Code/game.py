@@ -1,8 +1,8 @@
 import pygame as pg
 import sys
 
-from level import Level
-from functions import save, load
+from Code.level import Level
+from Code.functions import save, load
 
 class Game:
     def __init__(self):

@@ -1,7 +1,7 @@
 import pygame as pg
 
-from player import Player
-from functions import Sound
+from Code.player import Player
+from Code.functions import Sound
 
 class BasicShip(pg.sprite.Sprite):
     def __init__(self, pos: tuple[int], group: pg.sprite.Group, projectile_group: pg.sprite.Group, player: pg.sprite):
