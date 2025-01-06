@@ -51,7 +51,6 @@ class Level:
         self.asteroid_cluster_weight = 4
         orbit_speed = 8
         self.asteroid_movement_vector = AsteroidVector(self.background_sprites, self.displayX, self.displayY, orbit_speed)
-        
         self.asteroid_weights = []
         for i, w in enumerate([(i + 1)**2 for i in range(self.max_weight)]):
             if self.max_weight - i > self.asteroid_cluster_weight: continue
