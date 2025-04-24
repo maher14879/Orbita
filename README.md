@@ -12,3 +12,5 @@ Before you dive into the stars, ensure you have the following:
 1. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
+
+2. **Run main.py**
